@@ -1,0 +1,51 @@
+body {
+	text-align: center;
+	background-color: #FAF9EB;
+	font-family: Tahoma, Verdana, sans-serif;
+	width:75%;
+	margin:0 auto;
+	}
+h1,h2 {
+	color: #425882;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	}
+
+h1 {
+	/* border-bottom: dotted 1px #425882; */
+	}
+
+a:link,a:visited {
+	color:#fff;
+	display:inline-block;
+	padding:5px 10px;
+	background-color: #425882;
+	text-decoration: none;
+	border-radius: 5px;
+	}
+a:hover,a:visited:hover {
+	background-color:#F86D07;
+	color:#fff;
+	}
+
+p  {
+	border-top:solid 1px #bbb;
+	border-bottom:solid 1px #bbb;
+	padding:20px 40px;
+	}
+
+ul {
+	padding: 0;
+	width:225px;
+	margin:0 auto 20px;
+	text-align: left;
+	}
+
+li {
+	padding: 5px 0;
+	border-bottom: solid 1px #bbb;
+	list-style-type: none;
+}
+
+li:hover {
+	list-style-type: disc;
+	}
